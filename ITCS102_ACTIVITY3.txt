@@ -1,0 +1,23 @@
+int
+age = 18
+score = 20
+year = 2026
+pencil = 2
+
+float
+temperature = 36.5
+height = 154.5
+price = 99.50
+speed = 60.75
+
+str
+name = SHANE
+school = DLL
+course = BSIT
+city = LUCENA
+
+bool
+is_student = True
+is_raining = True
+has_id = False 
+is_open = False
