@@ -1,0 +1,34 @@
+amount = 19863
+
+thousand = amount // 1000
+amount = amount % 1000
+
+five_hundred = amount // 500
+amount = amount % 500
+
+one_hundred = amount // 100
+amount = amount % 100
+
+fifty = amount // 50
+amount = amount % 50
+
+twenty = amount // 20
+amount = amount % 20
+
+ten = amount // 10
+amount = amount // 10
+
+five = amount // 5
+amount = amount % 5
+
+one = amount = 1
+
+
+
+print("PHP 1000",thousand)
+print("PHP 500",five_hundred)
+print("PHP 200",one_hundred)
+print("PHP 20",twenty)
+print("PHP 10",ten)
+print("PHP 5",five)
+print("PHP 1",one)
