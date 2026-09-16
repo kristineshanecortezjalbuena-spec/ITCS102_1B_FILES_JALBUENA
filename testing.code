@@ -1,0 +1,34 @@
+# age (integer)
+# is_employed (boolean)
+# credit_score (integer)
+# annual_income (float)
+# has_collateral (boolean)
+
+age = int(input("Enter age --> "))
+is_employed = bool(input("Are your currently employed --> "))
+credit_score = eval(input("Credit Score history --> "))
+annual_income = eval(input("How much is your annnual income --> "))
+has_collateral = bool(input("Do you have collateral  --> ")) 
+
+if age >= 21 and is_employed:
+	print("Pass baseline eligibility ")
+	if credit_score >= 750 #tier 1
+	print("Your credit is above 750")
+	if annual_income >= 100000:
+		print("you have a high annual income")
+		base_rate = 4.5
+		print("Hi your interest is ", base_rate)
+	else:
+		base_rate = 5.0
+		print("Hi your interest rate is ", base_rate)
+		
+elif credit_score >= 600 and credit_score < 750:
+	if has_collateral == True:
+		base_rate = 7.0
+		print("Hi your interest rate is  ", base rate)
+	elif annual_income < 40000:
+		base_rate = 9.5
+		print("Hi, your interest rate is ", base rate)
+	else:
+		base_rate = 8.0
+		print("Hi, your interest rate is ", base_rate)
